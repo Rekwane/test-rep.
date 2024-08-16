@@ -16,7 +16,7 @@
 
 💬 Ask me about **python, bash, or sql... or anything [here](https://github.com/Rekwane/test-rep.)**
 
-⚡ Fun fact **Lego mini-figures have the largest population on Earth!**
+⚡ Fun fact **The first computer covered 1,800 square feet!**
 
  </div>
  
