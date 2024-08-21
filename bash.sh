@@ -8,3 +8,8 @@
 
 echo "Hello World"
 echo "Mom open the door"
+
+
+#!bin/bash
+name="Rekwane Wagner"
+echo "Welcome to the class $name"
