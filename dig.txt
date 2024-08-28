@@ -1,0 +1,17 @@
+
+; <<>> DiG 9.20.1-1-Debian <<>> google
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 59952
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;google.				IN	A
+
+;; Query time: 4 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1) (UDP)
+;; WHEN: Tue Aug 27 20:16:04 CDT 2024
+;; MSG SIZE  rcvd: 35
+

@@ -1,0 +1,6 @@
+Server:		192.168.1.1
+Address:	192.168.1.1#53
+
+Name:	google.lan
+Address: 192.168.1.1
+
