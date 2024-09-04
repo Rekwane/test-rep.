@@ -8,5 +8,6 @@
 
 while [ 1 -eq 1 ]
 do
-    echo "help im trapped in an infinite loop"
+    ping 192.168.1.104.
 done
+
