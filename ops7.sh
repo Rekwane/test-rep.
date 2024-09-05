@@ -6,8 +6,11 @@
 # Stretch Goal:
 # Can you do this with an until loop to have it execute a specfic number of times?
 
-while [ 1 -eq 1 ]
-do
-    ping 192.168.1.104.
-done
+# while [ 1 -eq 1 ]
+# do
+#     ping 192.168.1.104
+# done
 
+function doping() {
+    
+}
