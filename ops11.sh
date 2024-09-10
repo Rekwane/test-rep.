@@ -12,6 +12,8 @@
 # Hint &&(and) ||(or)
 
 # Read the three sides of the triangle
+echo "enter three numbers"
+
 read a
 read b
 read c
@@ -25,5 +27,4 @@ elif [[ $a -eq $b || $b -eq $c || $a -eq $c ]]; then
 # Otherwise, it must be scalene
 else
     echo "SCALENE"
-fi
 fi
