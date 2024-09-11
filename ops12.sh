@@ -10,8 +10,14 @@ while true; do
     case $choice in 
         good)
             echo "Glad to hear it"
+            break
             ;;
         bad)
             echo "Poor thing"
+            break
+            ;;
+        *)
+            echo "invalid entry"
+            ;;
     esac
 done 
