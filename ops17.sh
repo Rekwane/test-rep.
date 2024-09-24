@@ -11,12 +11,12 @@ ip=192.168.1.0/24
 while true; do
     case $number in
         1)
-            echo "Retrieving Devices"    
+            echo "Retrieving Devices..."    
             nmap -sn $ip
             break
             ;;
         2)
-            echo "Retrieving Devices"
+            echo "Retrieving Devices..."
             arp -e
             break
             ;;
