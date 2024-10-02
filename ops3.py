@@ -19,4 +19,4 @@ total_apples = john+mary+adam
 print(total_apples)
 print(f'"combined, john, mary, and adam have {total_apples} apples"')
 new_total = (adam/ john) * mary
-print(f'"adam lost his freaking apples and mary finally grew some apples so now they have {new_total}"')
+print(f'"adam lost his freaking apples and mary finally grew some apples so now they have {new_total} apples"')
