@@ -127,12 +127,12 @@ while True:
 # print("You've successfully left the loop!")
 # This is a loop with an if or else statement
 counter = 10
-# while counter > 5:
-#     print("Your number is two high", counter)
-#     counter -= 1
-# else:
-#       print("Your Number is to low")
-# pass
-# import math
-# dir(math)
+ while counter > 5:
+     print("Your number is two high", counter)
+     counter -= 1
+ else:
+       print("Your Number is to low")
+ pass
+ import math
+dir(math)
 
