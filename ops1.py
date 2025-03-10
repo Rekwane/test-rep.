@@ -1,5 +1,5 @@
 # Write a multi-line comment with your name, favorite food, and dream job on 3 different lines.
-print("Rekwane \n Oranges \n Traveling Legal Attache")
+print ("Rekwane \n Oranges \n Traveling Legal Attache")
 
 # assign 5 different data types to 5 different variables. At least one datatype must be a string.
 mystring = "I love Mom"
@@ -22,6 +22,6 @@ print(new_savvy)
 # Create and assign 3 more variables called name, age and length using the multi-variable naming method.
 name, age, height = "rekwane", "28", "5ft 5in"
 print(f'("hi my name is {name}, I am {28}, and I am {height} feet tall")')
-
-
+minibio= f"Hi my name is {name}, I am {height} and {age} years old today"
 # Format a new string called 'miniBio' using variables in curly brackets to complete this phrase... "Hi my name is (name), I am (tall) and (so) old today."
+print(minibio)

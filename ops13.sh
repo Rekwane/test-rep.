@@ -10,7 +10,7 @@
 # -lt = less than
 # -le = less than or equal to
 # >= (Greater than or equal to)
-# <= (Less than or equalk to)
+# <= (Less than or equal to)
 # > (Greater)
 # < (Less)
 # == (comparison)

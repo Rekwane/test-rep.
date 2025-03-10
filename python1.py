@@ -3,7 +3,7 @@ print("Hissss...")
 print("Hello World!")
 # #Print with no variable cause to skip a line
 print()
-print("Anthony")
+print("Rekwane")
 # # Starting your print statment on a new line
 print("The dog ran across the street.\nHe was chasing a car.")
 # # As you can see, the end keyword argument determines the characters the print() function sends to the output once it reaches the end of its positional arguments
@@ -127,12 +127,12 @@ while True:
 # print("You've successfully left the loop!")
 # This is a loop with an if or else statement
 counter = 10
- while counter > 5:
+while counter > 5:
      print("Your number is two high", counter)
      counter -= 1
- else:
-       print("Your Number is to low")
- pass
- import math
+else:
+    print("Your Number is to low")
+pass
+import math
 dir(math)
 

@@ -6,6 +6,5 @@ x=100
 until [ $x -lt 10 ]
 do 
     echo "your number is" $x
-    # ((x++))
     x=$((x-1))
 done

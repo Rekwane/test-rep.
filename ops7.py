@@ -11,17 +11,17 @@
 
 import random
 game_number = random.randint(1, 20)
-user_number = int(input("Welcome to the number guessing game! enter a number between 1 and 20: "))
 attempts = 0
+user_number = int(input("Welcome to the number guessing game! enter a number between 1 and 20: "))
 
 while game_number > user_number:
     print("Your number is too  low!")
     user_number = (int(input("enter a number: ")))
-
+    attempts +=1
 while user_number > game_number:
     print("Your number is too high")
     user_number = (int(input("enter a number: ")))
-
+    attempts +=1
 while user_number == game_number:
     print(F'("yes! you guessed it in {attempts} tries")')
     break

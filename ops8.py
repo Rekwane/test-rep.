@@ -6,7 +6,7 @@ import time
 #Start code below this line:
 
 counter = 0
-while counter != 5:
+for counter in range (1,6):
   print(counter, "mississippi")
   counter += 1
   time.sleep(1)

@@ -18,40 +18,40 @@
 #response = requests.get()
 # For the given URL, print response header information to the screen.
 
-#sets the response as the selected website
-from urllib import response
 #summons the type of request you select
 import requests
 #prompts user for a url
 url = input("Enter a website: ")
 #list http methods 
 http_methods = ["GET", "POST", "PUT", "DELETE", "HEAD", "PATCH", "OPTIONS"]
-#prompts user for http method
-http_method = input("Select an HTTP Method: ")
+print("select a HTTP Method:")
 #tells code to assign numbers to the http method list
 for index, method in enumerate(http_methods):
     print(f"{index + 1}: {method}")
-method_choice = int(input("Enter the number corresponding to your choice: ")) - 1
-http_method = http_methods[method_choice]
-print(f"\nYou are about to send a {method} request to {url}.")
-if http_method == "GET":
+method_choice = int(input("Enter the number corresponding to your choice: "))  -1
+if method_choice < 0 or method_choice >= len(http_methods):
+    print("invalid http method choice!")
+else:
+    http_methods = http_methods[method_choice]
+print(f"\nYou are about to send a {http_methods} request to {url}.")
+if http_methods == "GET":
     response = requests.get(url)
     print(response.headers)
-elif http_method == "POST":
+elif http_methods == "POST":
     response = requests.post(url)
     print(response.headers)
-elif http_method == "PUT":
+elif http_methods == "PUT":
     response = requests.put(url)
     print(response.headers)
-elif http_method == "DELETE":
+elif http_methods == "DELETE":
     response = requests.delete(url)
     print(response.headers)
-elif http_method == "HEAD":
+elif http_methods == "HEAD":
     response = requests.head(url)
     print(response.headers)
 elif http_methods == "PATCH":
     response = requests.patch(url)
     print(response.headers)
-elif http_method == "OPTIONS":
+elif http_methods == "OPTIONS":
     response = requests.options(url)
     print(response.headers)

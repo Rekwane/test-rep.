@@ -22,5 +22,6 @@ while secret_number != user_number:
     user_number = (int(input("enter a number: ")))
 
 while user_number == secret_number:
-        print("Well done muggle! you are free")
+        print(f'{secret_number}')
+        print("Well done, muggle! you are free.")
         break

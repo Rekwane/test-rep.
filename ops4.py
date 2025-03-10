@@ -30,7 +30,7 @@ print("About to run the 'ip a' command:")
 os.system(ip_a_command)
 
 lshw_short_command = "lshw -short"
-print("About to run the lshw -short command:" )
+print("About to run the 'lshw -short' command:" )
 os.system(lshw_short_command)
 
 pwd_command = "pwd"
