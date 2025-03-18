@@ -9,6 +9,6 @@ names = names_string.split(", ")
 
 #Write your code below this line 👇
 
-name = []
+name = ["rekwane", "gavin", "Micheal", "levi", "farhan]
 name = random.choice(names)
 print(name)
